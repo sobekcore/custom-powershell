@@ -15,6 +15,6 @@ But what if it looked even better? To do so you may want to install Oh my Posh, 
 ~~~
 PowerShellGet\Install-Module oh-my-posh -Scope CurrentUser -Force
 ~~~
-Now the last one step should be to install any Powerline font, or any font with Glyphs, for my setup the IBM Plex with mono-spacing and medium size looks the best, but choose any Powerline font you want to.
+Now the last one step should be to install any Powerline font, or any font with Glyphs, for my setup the IBM Plex with mono-spacing and medium size looks the best, but choose any Powerline font you want to. (oh and btw the standard version of IMB Plex doesnt have glyphs, you need to install Blex Mono, which is basiclly IBM Plex with glyphs).
 
 Now your PowerShell should look cool! If you'd want to change themes just change theme name in your Profile.ps1 file in WindowsPowerShell folder in your user/documents directory, or just use mine. If you want to use Sobek theme you must put Sobek.omp.json file into your Modules/oh-my-posh/themes folder. Have fun using!
