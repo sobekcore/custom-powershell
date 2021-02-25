@@ -2,10 +2,17 @@
 
 It's my simple custom Windows PowerShell 5.1 settings for better usability and eye-pleasing purposes. To use posh-git package (Git branch & file displayer) you need to first install it on your PC, then the profile is fully usable. To do so run:
 ~~~
-Install-Module PowershellGet -Force
+Install-Module PowershellGet -Scope CurrentUser -Force
 ~~~
 then
 ~~~
 PowerShellGet\Install-Module posh-git -Scope CurrentUser -Force
 ~~~
-Also if you want to fix posh-git title when in Git branches just change certain titles you'd like to change in posh-git folder in GitPrompt.ps1 file.
+
+And know you have posh-git, which is really usefull, and helps when working with Git in PowerShell. The branch displayer is a life saver function. But what if it looked even better? To do so you may want to install Oh my Posh, which is a module that make your PowerShell even more preety. If you'd like to install it run:
+~~~
+PowerShellGet\Install-Module oh-my-posh -Scope CurrentUser -Force
+~~~
+
+Now the last one step should be to install any Powerline font, or any font with Glyphs, for my setup the Source Code Pro Medium font looks the best, but choose any Powerline font you want to.
+Now your PowerShell should look cool! If you'd want to change themes just change theme name in your Profile.ps1 file in WindowsPowerShell folder in your user/documents directory. Have fun using!

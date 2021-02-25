@@ -1,10 +1,10 @@
-﻿# Width: 95u; Height: 24u; Big Cursor
-# Font: 24 Consolas, Color: 200/200/220
-# Background Color: 8/8/25, Opacity: 96%
+﻿# Font: 24 Source Code Pro Medium; Color: 200/200/220
+# Background Color: 8/8/25; Opacity: 96%
+# Width: 95u; Height: 24u; Big Cursor
 
 Import-Module posh-git
-
-$host.UI.RawUI.WindowTitle = " PowerShell 5.1 >> $((Get-Location).Path)"
+Import-Module oh-my-posh
+Set-PoshPrompt -Theme Sobek
 
 Set-PSReadLineOption -Colors @{
 	"Operator" = [ConsoleColor]:: DarkCyan

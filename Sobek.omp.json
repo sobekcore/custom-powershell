@@ -1,0 +1,86 @@
+{
+  "console_title": true,
+  "console_title_style": "template",
+  "console_title_template": " PowerShell 5.1 :: {{.Path}}",
+  "final_space": false,
+  "blocks": [
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "type": "text",
+          "style": "powerline",
+		  "powerline_symbol": "",
+          "foreground": "#24180a",
+          "background": "#d9caa0",
+		  "properties": {
+            "prefix": " ",
+            "text": " \u2615"
+          }
+        },
+        {
+          "type": "time",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "foreground": "#24180a",
+          "background": "#e6e2da"
+        },
+        {
+          "type": "path",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#100e23",
+          "background": "#91ddff",
+          "properties": {
+            "folder_separator_icon": "\u002F",
+            "style": "full"
+          }
+        },
+        {
+          "type": "git",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#193549",
+          "background": "#95ffa4",
+		  "properties": {
+			"branch_icon": "\uE0A0 ",
+			"no_commits_icon": "\u0425",
+			"branch_gone_icon": "\u2260",
+			"branch_identical_icon": "\u2261",
+			"branch_ahead_icon": "\u2191",
+			"branch_behind_icon": "\u2193",
+			"local_working_icon": ""
+		  }
+        },
+        {
+          "type": "exit",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#ffffff",
+          "background": "#ff8080",
+          "properties": {
+            "prefix": " \u0425 "
+          }
+        }
+      ]
+    },
+    {
+      "type": "newline"
+    },
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "type": "text",
+          "style": "plain",
+          "foreground": "#91ddff",
+          "properties": {
+            "text": "\u003E"
+          }
+        }
+      ]
+    }
+  ]
+}
